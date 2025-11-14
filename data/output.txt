@@ -1,0 +1,29 @@
+KMP String Matching Algorithm - Test Results
+=============================================
+
+TEST 1:
+Text: "abacabacaba"
+Pattern: "aba"
+Occurrences: [0, 4, 8]
+Count: 3
+Execution time: 11400 nanoseconds
+
+TEST 2:
+Text: "ABC ABCDAB ABCDABCDABDE"
+Pattern: "ABCDABD"
+Occurrences: [15]
+Count: 1
+Execution time: 5800 nanoseconds
+
+TEST 3:
+Text: "ABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDE"
+Pattern: "CDEAB"
+Occurrences: [2, 7, 12, 17, 22, 27, 32, 37, 42]
+Count: 9
+Execution time: 10200 nanoseconds
+
+COMPLEXITY ANALYSIS:
+Time Complexity: O(n + m)
+Space Complexity: O(m)
+
+Process finished with exit code 0
