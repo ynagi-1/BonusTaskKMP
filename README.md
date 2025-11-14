@@ -278,6 +278,6 @@ The algorithm is particularly well-suited for applications requiring:
 - Repetitive pattern matching
 - Scenarios where preprocessing time can be amortized over multiple searches
 
-The implementation provides a solid foundation for string matching applications and serves as an educational example of efficient algorithm design.#   B o n u s T a s k 
+The implementation provides a solid foundation for string matching applications and serves as an educational example of efficient algorithm design.
  
  
