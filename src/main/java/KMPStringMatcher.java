@@ -79,10 +79,10 @@ public class KMPStringMatcher {
     }
 
     // Read test cases from input file
-    private static List<TestCase> readTestCases(String filename) {
+    private static List<TestCase> readTestCases() {
         List<TestCase> testCases = new ArrayList<>();
 
-        try (BufferedReader br = new BufferedReader(new FileReader(filename))) {
+        try (BufferedReader br = new BufferedReader(new FileReader("data/input.txt"))) {
             String line;
             while ((line = br.readLine()) != null) {
                 // Skip empty lines and comments
@@ -141,7 +141,7 @@ public class KMPStringMatcher {
         System.out.println("=============================================\n");
 
         // Read test cases from file
-        List<TestCase> testCases = readTestCases("data/input.txt");
+        List<TestCase> testCases = readTestCases();
 
         if (testCases.isEmpty()) {
             System.out.println("No test cases found in data/input.txt");
