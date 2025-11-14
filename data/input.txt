@@ -1,0 +1,11 @@
+# KMP Algorithm Test Cases
+# Format: text|pattern|expected_indices
+
+# Test 1: Short string
+abacabacaba|aba|[0,4,8]
+
+# Test 2: Medium-length string
+ABC ABCDAB ABCDABCDABDE|ABCDABD|[15]
+
+# Test 3: Long string
+ABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDEABCDE|CDEAB|[2,7,12,17,22,27,32,37,42,47]
